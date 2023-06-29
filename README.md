@@ -43,14 +43,14 @@ The implementation is explained here steps by step.
   8) Calculates the MSE of on the validation set values
 
   9) Comparing validation loss with the best loss so far
+          
+  10) Checking if the patience count becomes equal to or more than the desired patience count training gets stopped.
+  
+  11) Saving best weights and bias
+  
+  12) Predicting with the final weights and bias on the testing data.
+
+  13) Importing Iris dataset and trying out different sets of models on by taking different combinations of data.
 
 ## Note
 **This repository serves as a demonstration of my work for the Machine learning coursework. Kindly refrain from using the exact code provided here in any academic assignments. Its purpose is to provide a reference and facilitate learning for others.**
-          
-  11) Checking if the patience count becomes equal to or more than the desired patience count training gets stopped.
-  
-  12) Saving best weights and bias
-  
-6) Predicting with the final weights and bias on the testing data.
-
-7) Importing Iris dataset and trying out different sets of models on by taking different combinations of data.
